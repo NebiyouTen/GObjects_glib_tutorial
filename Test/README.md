@@ -1,1 +1,1 @@
-# GObjects_glib_tutorial
+# GObjects tutorial
