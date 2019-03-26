@@ -10,6 +10,7 @@ int main (char **argv, int argc){
 
   test_animal_make_sound(a);
   test_animal_move (a,5,6);
+  
   test_animal_make_sound (TEST_ANIMAL(c));
   test_animal_move(TEST_ANIMAL(c),10,11);
 
@@ -21,7 +22,7 @@ int main (char **argv, int argc){
   g_object_unref(d);
 
   g_object_unref(a);
-  
+
   return 0;
 
 }
